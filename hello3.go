@@ -6,8 +6,13 @@ import "fmt"
 
 func main() {
 	var x string = "Hello World!!"
+	var name string = "Amir"
+	var age string = "34"
+
   	fmt.Println(x)
-	fmt.Printf("Hey my name is Amir.\nWhat is yours?\n")
+	fmt.Println("My name is", name)
+	fmt.Println("My age is", age)
+	fmt.Printf("\nWhat is yours?\n")
 	fmt.Println("1 + 1 =", 1 + 1)
 	fmt.Println(len("Hello World"))
   	fmt.Println("Hello World"[1])
